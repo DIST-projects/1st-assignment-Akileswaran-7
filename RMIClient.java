@@ -19,7 +19,7 @@ public class RMIClient {
                 (StudentService) registry.lookup("StudentService");
 
             System.out.println(
-                service.addStudent("CS101", "Arjun", 82)
+                service.addStudent("CS101", "Akil", 82)
             );
 
             Map<String, Object> student =
